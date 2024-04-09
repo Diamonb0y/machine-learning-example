@@ -118,7 +118,7 @@ if __name__ == "__main__":
         print(data)
         # vocab_model = pickle.load(open("./models/vocab.pkl", "rb"))
         # print(data[0][0])
-        # result = vocab_model.transform(data[0][0], 100)
+        # result = vocab_model.inverse_transform(data[0][0], 100)
         # print(result)
         break
 
